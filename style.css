@@ -1,0 +1,71 @@
+html, body {
+    height: 100%;
+    margin: 0 auto;
+    padding: 0px;
+    font-family: 'Varela Round', sans-serif;
+}
+
+h2 {
+    color: green;
+}
+
+#tracker-container {
+    /* border: 3px solid red; */
+    display: flex;
+    justify-content: center;
+}
+
+#container {
+    /* border: 3px solid green; */
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#form {
+    /* border: 3px solid blue; */
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+input {
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#table {
+    /* border: 3px solid magenta; */
+    width: 60vw;
+    border-spacing: 5px;
+    padding: 10px;
+    margin-top: 50px;
+}
+
+th {
+    text-align: left;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+#addBtn {
+    width: 10vw;
+    background-color: green;
+    border-radius: 5px;
+    height: 30px;
+    color: white;
+    cursor: pointer;
+    margin-left: 40%;
+}
+
+.delete-row {
+    margin: 10px 0 0 40px;
+    color: red;
+    font-weight: 900;
+}

@@ -37,15 +37,7 @@ function addRow(e) {
     // insert into the DOM
     table.appendChild(row);
 
-    if (name.value == "") {
-        table.removeChild(row);
-        alert("Please fill out the form! ¯\\_(ツ)_/¯")
-    }
-    if (date.value == "") {
-        table.removeChild(row);
-        alert("Please fill out the form! ¯\\_(ツ)_/¯")
-    }
-    if (amount.value == "") {
+    if (name.value == "" || date.value == "" || amount.value == "") {
         table.removeChild(row);
         alert("Please fill out the form! ¯\\_(ツ)_/¯")
     }

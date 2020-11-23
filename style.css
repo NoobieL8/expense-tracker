@@ -69,3 +69,25 @@ table, th, td {
     color: red;
     font-weight: 900;
 }
+
+@media (max-width: 600px) {
+    #addBtn {
+        width: 30vw;
+        margin: 0 auto;
+    }
+
+    .delete-row {
+        margin: 10px;
+    }
+}
+
+@media (max-width: 1024px) {
+    #addBtn {
+        width: 30vw;
+        margin: 0 auto;
+    }
+
+    .delete-row {
+        margin: 15px;
+    }
+}
